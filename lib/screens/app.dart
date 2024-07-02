@@ -1,3 +1,4 @@
+import 'package:fire_base/screens/student_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
@@ -89,6 +90,12 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){
+          Navigator.push(context, MaterialPageRoute(builder: (context) {
+            return const StudentView();
+          },));
+      }, child: const Icon(Icons.add),),
       body: Center(
         child: Container(
           margin: const EdgeInsets.symmetric(horizontal:  10.0),

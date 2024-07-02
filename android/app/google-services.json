@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "479298278205",
+    "firebase_url": "https://fir-practice-90207-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "fir-practice-90207",
     "storage_bucket": "fir-practice-90207.appspot.com"
   },
@@ -12,7 +13,20 @@
           "package_name": "com.example.fire_base"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "479298278205-87puaevk2ok54qan376mpqq3as53jp87.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fire_base",
+            "certificate_hash": "9c0e3e6ef4055d5644e427d0b867cfd054bf90e3"
+          }
+        },
+        {
+          "client_id": "479298278205-phgk5p644ud6uba1bvp3hnl04qradpc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyA8HFUCefyCrNmfzLV92d8YMYl_0urtf80"
@@ -20,26 +34,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:479298278205:android:5e36c5feaf84f237c1eb54",
-        "android_client_info": {
-          "package_name": "com.example.fire_base2"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA8HFUCefyCrNmfzLV92d8YMYl_0urtf80"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479298278205-phgk5p644ud6uba1bvp3hnl04qradpc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
