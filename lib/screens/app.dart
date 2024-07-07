@@ -1,4 +1,5 @@
 import 'package:fire_base/screens/student_view.dart';
+import 'package:fire_base/screens/web_socket.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
@@ -185,6 +186,27 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 40,
                   child: const Text(
                     'Sign out google',
+                  ),
+                ),
+              ),
+              InkWell(
+                onTap:(){
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return const WebSocketScreen();
+                  },));
+                },
+                splashColor: Colors.blue,
+                child: Container(
+                  margin: const EdgeInsets.symmetric(vertical:  10.0),
+                  padding: const EdgeInsets.all(10.0),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10.0),
+                    border: Border.all(width: 1, color: Colors.black),
+                  ),
+                  width: size.width,
+                  height: 40,
+                  child: const Text(
+                    'Navigator',
                   ),
                 ),
               ),
